@@ -1,42 +1,26 @@
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-  font-size:20px;
-  position:relative;
-  left:60px;
-}
+body{
 
-li {
-  float: left;
 }
-
-li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  
+div {
+  background-image: url('https://rlv.zcache.ca/h_linear_gradient_green_to_black_baby_t_shirt-rca4356a22e0d4f4f828bf0303e4fd8ad_j2nhu_307.jpg?rvtype=content');
 }
-
+h1{
+	font-family:Serif;
+}
 li a:hover {
- background-color:lightblue;
+ background-color:#88d969;
 }
 
 .active {
   
   font-size:18px;
+  background-color:green;
   
 }
 
 #header{
 
-background-color:#666666;
+background-color:#1d800e;
 }
 
 #globe{
@@ -66,7 +50,7 @@ position:relative;
 
 #div1{
 
-background-color:#e67300;
+background-color:#06A10B;
 position:relative;
 padding:0.2px;
 }
@@ -80,23 +64,28 @@ position:relative;
 }
 
 #home{
-border-right:solid black 1px;
+	border-right:solid green 1px;
+
 font-size:18px;
 }
 
 #news{
-border-right:solid black 1px;
+	border-right:solid green 1px;
 font-size:18px;
 }
-
+#contact{
+	border-right:solid green 1px;
+font-size:18px;
+}
 #about{
-position:relative;left:1000px;
+border-right:solid green 1px;
+border-bottom:solid green 1px;
 font-size:18px;
 }
 
 #footer{
 
-background-color:grey;
+background-color:green;
 position:relative;
 top:455px;
 padding:10px
@@ -119,11 +108,36 @@ left:40px
 #yb{
 
 font-size:30px;
-color:red;
+color:grey;
 }
 
 #fb{
-
 font-size:30px;
-color:blue;
+color:grey;
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #red;
+color: white;}
