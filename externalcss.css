@@ -1,32 +1,48 @@
-body{
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+  font-size:20px;
+  position:relative;
+  left:60px;
+}
 
+li {
+  float: left;
 }
-div {
-  background-image: url('https://rlv.zcache.ca/h_linear_gradient_green_to_black_baby_t_shirt-rca4356a22e0d4f4f828bf0303e4fd8ad_j2nhu_307.jpg?rvtype=content');
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
 }
-h1{
-	font-family:Serif;
-}
+
 li a:hover {
- background-color:#88d969;
+ background-color:lightblue;
 }
 
 .active {
   
   font-size:18px;
-  background-color:green;
   
 }
 
 #header{
 
-background-color:#1d800e;
+background-color:#666666;
 }
 
 #globe{
 
 font-size:15px;
-left:1240px;
+left:1100px;
 position:relative;
 color:white;
 }
@@ -36,7 +52,7 @@ color:white;
 color:white;
 text-decoration:none;
 border-right:solid white 1px;
-left:1245px;
+left:1100px;
 position:relative;
 }
 
@@ -44,13 +60,13 @@ position:relative;
 
 color:white;
 text-decoration:none;
-left:1250px;
+left:1100px;
 position:relative;
 }
 
 #div1{
 
-background-color:#06A10B;
+background-color:#e67300;
 position:relative;
 padding:0.2px;
 }
@@ -64,28 +80,23 @@ position:relative;
 }
 
 #home{
-	border-right:solid green 1px;
-
+border-right:solid black 1px;
 font-size:18px;
 }
 
 #news{
-	border-right:solid green 1px;
+border-right:solid black 1px;
 font-size:18px;
 }
-#contact{
-	border-right:solid green 1px;
-font-size:18px;
-}
+
 #about{
-border-right:solid green 1px;
-border-bottom:solid green 1px;
+position:relative;left:880px;
 font-size:18px;
 }
 
 #footer{
 
-background-color:green;
+background-color:grey;
 position:relative;
 top:455px;
 padding:10px
@@ -108,36 +119,11 @@ left:40px
 #yb{
 
 font-size:30px;
-color:grey;
+color:red;
 }
 
 #fb{
+
 font-size:30px;
-color:grey;
+color:blue;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 25%;
-  background-color: #f1f1f1;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
-}
-
-li a {
-  display: block;
-  color: #000;
-  padding: 8px 16px;
-  text-decoration: none;
-}
-
-li a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-
-li a:hover:not(.active) {
-  background-color: #red;
-color: white;}
