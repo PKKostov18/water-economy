@@ -1,3 +1,4 @@
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -8,7 +9,7 @@ ul {
   top: 0;
   font-size:20px;
   position:relative;
-  left:60px;
+  left:5%;
 }
 
 li {
@@ -42,7 +43,7 @@ background-color:#666666;
 #globe{
 
 font-size:15px;
-left:1100px;
+left:80%;
 position:relative;
 color:white;
 }
@@ -51,8 +52,8 @@ color:white;
 
 color:white;
 text-decoration:none;
-border-right:solid white 1px;
-left:1100px;
+
+left:80%;
 position:relative;
 }
 
@@ -60,7 +61,7 @@ position:relative;
 
 color:white;
 text-decoration:none;
-left:1100px;
+left:80%;
 position:relative;
 }
 
@@ -90,8 +91,20 @@ font-size:18px;
 }
 
 #about{
-position:relative;left:880px;
+position:relative;float:right;
 font-size:18px;
+}
+
+@media only screen and (max-width:725px)
+{
+	
+#about{
+position:relative;
+
+font-size:18px;
+}
+	
+	
 }
 
 #footer{
