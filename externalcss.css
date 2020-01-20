@@ -7,7 +7,7 @@ ul {
   position: -webkit-sticky; 
   position: sticky;
   top: 0;
-  font-size:20px;
+  font-size:17px;
   position:relative;
   left:5%;
 }
@@ -31,7 +31,7 @@ li a:hover {
 
 .active {
   
-  font-size:18px;
+ font-size:18px;
   
 }
 
@@ -52,7 +52,6 @@ color:white;
 
 color:white;
 text-decoration:none;
-
 left:80%;
 position:relative;
 }
@@ -68,15 +67,14 @@ position:relative;
 #div1{
 
 background-color:#e67300;
-position:relative;
-padding:0.2px;
+padding:0.1px;
 }
 
 #h1{
 
 font-size:45px;
 color:white;
-left:70px;
+left:5%;
 position:relative;
 }
 
@@ -91,52 +89,63 @@ font-size:18px;
 }
 
 #about{
-position:relative;float:right;
-font-size:18px;
-}
-
-@media only screen and (max-width:725px)
-{
-	
-#about{
 position:relative;
-
+float:right;
 font-size:18px;
-}
-	
-	
 }
 
 #footer{
 
 background-color:grey;
+position:absolute;
+bottom:0;
+padding:10px;
+width:97.5%
+}
+
+#inst{
+
+font-size:30px;
+color:orange;
 position:relative;
-top:455px;
-padding:10px
+left:7%;
 }
 
 #link2{
 
-test-decoration:none;
+text-decoration:none;
 position:relative;
-left:60px
+
 }
 
 #link1{
 
-test-decoration:none;
+text-decoration:none;
 position:relative;
-left:40px
 }
 
 #yb{
 
 font-size:30px;
 color:red;
+position:relative;
+left:3%;
 }
 
 #fb{
 
 font-size:30px;
+position:relative;
 color:blue;
+left:5%;
+}
+
+#eco{
+	
+	width:30%;
+	position:absolute;
+	left:59%;
+	top:45%;
+	border:solid #e67300 5px;
+	
 }
