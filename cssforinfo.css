@@ -1,0 +1,33 @@
+#ul1 {
+  list-style-type: none;
+  width: 13%;
+  position: relative;
+  left:50px;
+  top:10px;
+
+  
+
+}
+#li1 a {
+  display: block;
+  color: #000;
+  padding: 9px 20px;
+  text-decoration: none;
+  padding-bottom:12px;
+  
+  
+}
+
+#li1 a.active {
+  
+  color: black;
+  
+}
+
+#li1 a:hover:not(.active) {
+  background-color: lightblue;
+  color: black;
+  
+}
+
+

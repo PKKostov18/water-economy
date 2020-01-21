@@ -12,6 +12,7 @@ ul {
   left:5%;
 }
 
+
 li {
   float: left;
 }
@@ -24,6 +25,8 @@ li a {
   text-decoration: none;
   
 }
+
+
 
 li a:hover {
  background-color:lightblue;
@@ -97,20 +100,29 @@ font-size:18px;
 #footer{
 
 background-color:grey;
+position:relative;
+bottom:0;
+padding:10px;
+width:98.5%;
+}
+
+#footer2{
+
+background-color:grey;
 position:absolute;
 bottom:0;
 padding:10px;
 width:97.5%
 }
 
+
 #inst{
 
-font-size:30px;
+font-size:22px;
 color:orange;
 position:relative;
-left:7%;
+left:9%;
 }
-
 #link2{
 
 text-decoration:none;
@@ -124,20 +136,22 @@ text-decoration:none;
 position:relative;
 }
 
+
 #yb{
 
-font-size:30px;
+font-size:22px;
 color:red;
 position:relative;
-left:3%;
+left:7.5%;
 }
+
 
 #fb{
 
-font-size:30px;
+font-size:22px;
 position:relative;
 color:blue;
-left:5%;
+left:1%;
 }
 
 #eco{
@@ -148,4 +162,50 @@ left:5%;
 	top:45%;
 	border:solid #e67300 5px;
 	
+}
+
+.error {
+	color: #FF0000;
+	}
+	
+	#h3{
+		
+		position:relative;
+		left:640px;
+		
+		
+		
+	}
+	
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  padding: 30px;
+  width:40%;
+  position:relative;
+  left:30%;
 }
