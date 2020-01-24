@@ -80,6 +80,13 @@ color:white;
 left:5%;
 position:relative;
 }
+#h1-2{
+
+font-size:45px;
+color:black;
+left:5%;
+position:relative;
+}
 
 #home{
 border-right:solid black 1px;
@@ -100,7 +107,7 @@ font-size:18px;
 #footer{
 
 background-color:grey;
-position:relative;
+position:absolute;
 bottom:0;
 padding:10px;
 width:98.5%;
