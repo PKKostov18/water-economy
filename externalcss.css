@@ -4,8 +4,6 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  position: -webkit-sticky; 
-  position: sticky;
   top: 0;
   font-size:17px;
   position:relative;
@@ -175,14 +173,14 @@ left:1%;
 	color: #FF0000;
 	}
 	
-	#h3{
+#h3{
 		
-		position:relative;
-		left:640px;
+	position:relative;
+	left:600px;
 		
 		
 		
-	}
+}
 	
 input[type=text], select, textarea {
   width: 100%;
@@ -210,7 +208,7 @@ input[type=submit]:hover {
 
 .container {
   border-radius: 10px;
-  background-color: #f2f2f2;
+  background-color: #ffa64d;
   padding: 30px;
   width:40%;
   position:relative;
