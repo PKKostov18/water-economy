@@ -105,9 +105,8 @@ font-size:18px;
 #footer{
 
 background-color:grey;
-position:absolute;
+position:relative;
 bottom:0;
-padding:10px;
 width:98.5%;
 }
 
@@ -116,18 +115,9 @@ width:98.5%;
 background-color:grey;
 position:absolute;
 bottom:0;
-padding:10px;
 width:97.5%
 }
 
-
-#inst{
-
-font-size:22px;
-color:orange;
-position:relative;
-left:9%;
-}
 #link2{
 
 text-decoration:none;
@@ -141,13 +131,22 @@ text-decoration:none;
 position:relative;
 }
 
+#inst{
+
+font-size:22px;
+color:orange;
+position:relative;
+left:9%;
+padding:10px;
+}
 
 #yb{
 
 font-size:22px;
 color:red;
 position:relative;
-left:7.5%;
+left:9%;
+padding:10px;
 }
 
 
@@ -157,6 +156,7 @@ font-size:22px;
 position:relative;
 color:blue;
 left:1%;
+padding:10px;
 }
 
 #eco{
@@ -176,10 +176,8 @@ left:1%;
 #h3{
 		
 	position:relative;
-	left:600px;
-		
-		
-		
+	left:47%;	
+    font-size:24px;	
 }
 	
 input[type=text], select, textarea {
@@ -213,4 +211,6 @@ input[type=submit]:hover {
   width:40%;
   position:relative;
   left:30%;
+  bottom:16px
+  
 }
