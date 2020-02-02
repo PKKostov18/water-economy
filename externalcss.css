@@ -1,4 +1,3 @@
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -49,21 +48,6 @@ position:relative;
 color:white;
 }
 
-#en{
-
-color:white;
-text-decoration:none;
-left:80%;
-position:relative;
-}
-
-#bg{
-
-color:white;
-text-decoration:none;
-left:80%;
-position:relative;
-}
 
 #div1{
 
@@ -115,7 +99,7 @@ width:98.5%;
 background-color:grey;
 position:absolute;
 bottom:0;
-width:97.5%
+width:100%
 }
 
 #link2{
@@ -145,7 +129,7 @@ padding:10px;
 font-size:22px;
 color:red;
 position:relative;
-left:9%;
+left:9.5%;
 padding:10px;
 }
 
@@ -162,9 +146,9 @@ padding:10px;
 #eco{
 	
 	width:30%;
-	position:absolute;
-	left:59%;
-	top:45%;
+	position:relative;
+	left:60%;
+	top:10px;
 	border:solid #e67300 5px;
 	
 }
@@ -177,6 +161,13 @@ padding:10px;
 		
 	position:relative;
 	left:47%;	
+    font-size:24px;	
+}
+
+#h2{
+		
+	position:relative;
+	left:42%;	
     font-size:24px;	
 }
 	
@@ -213,4 +204,18 @@ input[type=submit]:hover {
   left:30%;
   bottom:16px
   
+}
+
+
+  .btn .button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: left;
 }
