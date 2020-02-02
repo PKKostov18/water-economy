@@ -1,11 +1,8 @@
-
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  position: -webkit-sticky; 
-  position: sticky;
   top: 0;
   font-size:17px;
   position:relative;
@@ -51,21 +48,6 @@ position:relative;
 color:white;
 }
 
-#en{
-
-color:white;
-text-decoration:none;
-left:80%;
-position:relative;
-}
-
-#bg{
-
-color:white;
-text-decoration:none;
-left:80%;
-position:relative;
-}
 
 #div1{
 
@@ -80,14 +62,21 @@ color:white;
 left:5%;
 position:relative;
 }
+#h1-2{
+
+font-size:45px;
+color:black;
+left:5%;
+position:relative;
+}
 
 #home{
 border-right:solid black 1px;
 font-size:18px;
 }
 
-#news{
-border-right:solid black 1px;
+#info{
+
 font-size:18px;
 }
 
@@ -102,7 +91,6 @@ font-size:18px;
 background-color:grey;
 position:relative;
 bottom:0;
-padding:10px;
 width:98.5%;
 }
 
@@ -111,18 +99,9 @@ width:98.5%;
 background-color:grey;
 position:absolute;
 bottom:0;
-padding:10px;
-width:97.5%
+width:100%
 }
 
-
-#inst{
-
-font-size:22px;
-color:orange;
-position:relative;
-left:9%;
-}
 #link2{
 
 text-decoration:none;
@@ -136,13 +115,22 @@ text-decoration:none;
 position:relative;
 }
 
+#inst{
+
+font-size:22px;
+color:orange;
+position:relative;
+left:9%;
+padding:10px;
+}
 
 #yb{
 
 font-size:22px;
 color:red;
 position:relative;
-left:7.5%;
+left:9.5%;
+padding:10px;
 }
 
 
@@ -152,14 +140,15 @@ font-size:22px;
 position:relative;
 color:blue;
 left:1%;
+padding:10px;
 }
 
 #eco{
 	
 	width:30%;
-	position:absolute;
-	left:59%;
-	top:45%;
+	position:relative;
+	left:60%;
+	top:10px;
 	border:solid #e67300 5px;
 	
 }
@@ -168,14 +157,19 @@ left:1%;
 	color: #FF0000;
 	}
 	
-	#h3{
+#h3{
 		
-		position:relative;
-		left:640px;
+	position:relative;
+	left:47%;	
+    font-size:24px;	
+}
+
+#h2{
 		
-		
-		
-	}
+	position:relative;
+	left:42%;	
+    font-size:24px;	
+}
 	
 input[type=text], select, textarea {
   width: 100%;
@@ -203,9 +197,25 @@ input[type=submit]:hover {
 
 .container {
   border-radius: 10px;
-  background-color: #f2f2f2;
+  background-color: #ffa64d;
   padding: 30px;
   width:40%;
   position:relative;
   left:30%;
+  bottom:16px
+  
+}
+
+
+  .btn .button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: left;
 }
