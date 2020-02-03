@@ -1,11 +1,12 @@
 #ul1 {
 	
   list-style-type: none;
-  width: 14%;
+  width: 13%;
   position: relative;
   left:50px;
   top:10px;
   font-size:18px;
+  border-right:solid black 1px;
 
 
 }

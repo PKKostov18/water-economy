@@ -55,6 +55,12 @@ background-color:#e67300;
 padding:0.1px;
 }
 
+#div2{
+
+background-color:#e67300;
+width:400px;
+}
+
 #h1{
 
 font-size:45px;
@@ -65,8 +71,7 @@ position:relative;
 #h1-2{
 
 font-size:45px;
-color:black;
-left:5%;
+color:white;
 position:relative;
 }
 
@@ -153,21 +158,29 @@ padding:10px;
 	
 }
 
+#eco1{
+	
+    width:350px;
+	position:absolute;
+	left:900px;
+	top:250px;
+	border:solid #e67300 5px;
+	
+}
+
 .error {
 	color: #FF0000;
 	}
 	
 #h3{
 		
-	position:relative;
-	left:47%;	
+	position:relative;	
     font-size:24px;	
 }
 
 #h2{
 		
-	position:relative;
-	left:42%;	
+	position:relative;	
     font-size:24px;	
 }
 	
