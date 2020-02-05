@@ -132,7 +132,7 @@ li a:hover {
 	position:relative;
 	top:70px;
 	left:4%;
-	border:solid #e67300 5px;
+	border:solid #e67300 8px;
 	height:250px;
 	z-index:2;
 	width:400px;
@@ -282,13 +282,13 @@ li a:hover {
 
 #eco{
 	
-	width:30%;
+	width:20%;
 	position:relative;
-	left:67%;
+	left:63%;
 	top:180px;
-	border:solid white 5px;
+	border:solid white 8px;
 	z-index:2;
-	width:600px;
+	width:450px;
 	
 }
 
