@@ -1,19 +1,21 @@
 <!Doctype html>
 
-<html lang="en">
+<html>
 
 <head>
+
  <title key="title" class="lang"> Water Economy </title>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Druplicon.vector.svg/1200px-Druplicon.vector.svg.png" type="image/gif" sizes="14x14">
+ <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Druplicon.vector.svg/1200px-Druplicon.vector.svg.png" type="image/gif" sizes="14x14">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  <link rel="stylesheet" type="text/css" href="externalcss.css">
-  <link rel="stylesheet" type="text/css" href="cssforinfo.css">
-  
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-  <script type="text/javascript">
-  
+ <link rel="stylesheet" type="text/css" href="cssforinfo.css">
+ <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+ 
+ <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+ <script type="text/javascript">
+ 
     var arrLang = new Array();
     arrLang['en'] = new Array();
     arrLang['bg'] = new Array();
@@ -22,13 +24,17 @@
     arrLang['en']['contact'] = 'Contact us';
     arrLang['en']['about'] = 'About';
 	arrLang['en']['h1'] = 'Water economy';
-	arrLang['en']['title'] = 'Water economy';
+	arrLang['en']['h4'] = 'With our project, we are aiming to inform people about problems related to contaminated water and how to prevent the water pollution. Also the project is releted with the Blue Economy Competition.';
+	arrLang['en']['aim'] = 'Water is so precious because it is limited by nature. The science of water economy studies the way in which water resources are limited and how they must be managed to satisfy farming needs without creating social inequalities and unsustainable environmental impacts. Overall, the planet possesses some 1.4 billion cubic kilometers of water. However, it is estimated that less than 45,000 cubic kilometers (0.003 percent of the total) is theoretically usable and that only 9,000 to 14,000 cubic kilometers (about 0.001 percent of the total) is suitable for human use, which means it is of adequate quality and is accessible at an acceptable cost.';
+    arrLang['en']['title'] = 'Water economy';
 
     arrLang['bg']['info'] = 'Инфо';
     arrLang['bg']['contact'] = 'Контакт';
     arrLang['bg']['about'] = 'За проекта';
 	arrLang['bg']['h1'] = 'Икономия на водата';
-	arrLang['bg']['title'] = 'Икономия на водата';
+	arrLang['bg']['h4'] = 'С нашия проект целим да информираме хората за проблеми, свързани със замърсена вода и как да предотвратим замърсяването на водата. Също така проектът е свързан със състезанието за синя икономика.';
+    arrLang['bg']['aim'] = 'Водата е толкова ценна, защото е ограничена от природата. Науката за водното стопанство изучава начина, по който водните ресурси са ограничени и как те трябва да бъдат управлявани, за да задоволят нуждите на селското стопанство, без да създават социални неравенства и неустойчиво въздействие върху околната среда. Като цяло планетата притежава около 1,4 милиарда кубически километра вода. Въпреки това се изчислява, че по-малко от 45 000 кубически километра (0,003 процента от общия брой) е теоретично използваем и че само 9 000 до 14 000 кубически километра (около 0,001 процента от общия брой) са подходящи за употреба от човека, което означава, че е с адекватно качество и е достъпен на приемлива цена.';
+    arrLang['bg']['title'] = 'Икономия на водата';
 
     $(function() {
       $('.translate').click(function() {
@@ -39,27 +45,30 @@
         });
       });
     });
-  </script>
-  
+	
+	
+ </script>
+ 
 </head>
 
-
-<body >
+<body>
 
 <header id="header">
 
+<section>
 <div style="padding:5px;"><i class="fa fa-globe" id="globe"></i>
 
  <button id="en" class="translate" class="button" style="position:relative;left:81%">English</button>
-  <button id="bg" class="translate" class="button" style="position:relative;left:81%">Български</button>
+ <button id="bg" class="translate" class="button" style="position:relative;left:81%">Български</button>
 
 </div>
+</section>
 
 </header>
 
 <hr>
 
-<div id="div1">
+<div id="div1" >
 
 <h1 id="h1" key="h1" class="lang" >Water Economy</h1>
 
@@ -69,32 +78,68 @@
 
 <nav style="width:90%">
 <ul>
-  
-  <li><a href="watermatering.html" key="info" class="lang" id="info2">Info</a></li>
+ 
+  <li id="info2"><a href="watermatering.html" key="info" class="lang">Info</a></li>
   <li><a href="contact.html"   key="contact" class="lang">Contact us</a></li>
   <li id="about"><a href="about.html"   key="about" class="lang">About</a></li>
+  
 </ul>
-
 </nav>
 
 <hr>
 
-<img src="http://www.sailors.it/wp-content/uploads/2018/03/adobe-spark-post.png"  alt="Blue Economy" id="eco">
+<hr id="hr">
 
-<div>
-<p>
+<section>
 
-</p>
+<img src="https://www.verdict.co.uk/wp-content/uploads/2019/08/water-harvester-1440x970.jpg" alt="Blue Economy" id="water">
+
+<h4 id="aim" key="aim" class="lang">Water is so precious because it is limited by nature. The science of water economy studies the way in which water resources are limited and how they must be managed to satisfy farming needs without creating social inequalities and unsustainable environmental impacts. Overall, the planet possesses some 1.4 billion cubic kilometers of water. However, it is estimated that less than 45,000 cubic kilometers (0.003 percent of the total) is theoretically usable and that only 9,000 to 14,000 cubic kilometers (about 0.001 percent of the total) is suitable for human use, which means it is of adequate quality and is accessible at an acceptable cost.
+</h4>
+
+</section>
+
+<section class="skew">
+
+<img src="orange.png" style="width:98.8%;height:605px;z-index:0;position:absolute;top:410px;">
+
+<div class="container2">
+
+<img src="http://www.sailors.it/wp-content/uploads/2018/03/adobe-spark-post.png" width="600" alt="Blue Economy" id="eco">
+
+<h4 id="h4" key="h4" class="lang">With our project, we are aiming to inform people about problems related to contaminated water and how to prevent the water pollution. Also the project is releted with the Blue Economy Competition.
+</h4>
+
 </div>
 
-<footer id="footer2">
+</section>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<footer id="footer3">
 
 <a href="https://www.youtube.com/channel/UCf3GBTUn_Kd2bzMuCr2kZag/videos?view_as=subscriber" id="link1"><i class="fa fa-youtube-play" id="yb"></i></a>
 <a href="https://www.facebook.com/groups/194078554975953/?hc_ref=ARQ6F71Tmtvev8ATQesSFmvilY2eJJJjccKNarOF_3mbrVwjeGAPY9K5yGWP51V-Q94" id="link2" ><i class="fa fa-facebook-f" id="fb"></i></a>
-<a href="https://www.instagram.com/zafe_pik1/" ><i class="fa fa-instagram" id="inst"></i></a>
+<a href="https://www.instagram.com/zafe_pik2/" ><i class="fa fa-instagram" id="inst"></i></a>
 
 
 </footer>
+
 </body>
 
 </html>

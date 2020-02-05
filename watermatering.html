@@ -1,25 +1,71 @@
 <!Doctype html>
 
-<html lang="en">
+<html>
 
 <head>
- <title> Water Economy </title>
+
+ <title key="title" class="lang"> Water Economy </title>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Druplicon.vector.svg/1200px-Druplicon.vector.svg.png" type="image/gif" sizes="14x14">
+ <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Druplicon.vector.svg/1200px-Druplicon.vector.svg.png" type="image/gif" sizes="14x14">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  <link rel="stylesheet" type="text/css" href="cssforinfo.css">
  <link rel="stylesheet" type="text/css" href="externalcss.css">
+ 
+ <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+ <script type="text/javascript">
+ 
+    var arrLang = new Array();
+    arrLang['en'] = new Array();
+    arrLang['bg'] = new Array();
+
+    arrLang['en']['home'] = 'Home';
+    arrLang['en']['contact'] = 'Contact us';
+    arrLang['en']['about'] = 'About';
+	arrLang['en']['h1'] = 'Water metering'; 
+    arrLang['en']['title'] = 'Water economy';
+	arrLang['en']['toilet'] = 'Toilet flushing';
+	arrLang['en']['garden'] = 'Gardening';
+	arrLang['en']['wash'] = 'Washing-up';
+	arrLang['en']['drink'] = 'Drinking water';
+	arrLang['en']['shower'] = 'Showering';
+	arrLang['en']['clothes'] = 'Clothes washing';
+	arrLang['en']['text'] = 'In many developed countries water meters are used to measure the volume of water used by residential and commercial buildings that are supplied with water by a public water supply system. Water meters can also be used at the water source, well, or throughout a water system to determine flow through a particular portion of the system. In most of the world water meters measure flow in cubic metres (m3) or litres but in the USA and some other countries water meters are calibrated in cubic feet (ft.3) or US gallons on a mechanical or electronic register.';
+
+    arrLang['bg']['home'] = 'Начало';
+    arrLang['bg']['contact'] = 'Контакт';
+    arrLang['bg']['about'] = 'За проекта';
+	arrLang['bg']['h1'] = 'Измерване на вода';
+    arrLang['bg']['title'] = 'Икономия на водата';
+	arrLang['bg']['toilet'] = 'Миене на тоалетна';
+	arrLang['bg']['garden'] = 'Градинарство';
+	arrLang['bg']['wash'] = 'Измиване на съдове';
+	arrLang['bg']['drink'] = 'Пиене на вода';
+	arrLang['bg']['shower'] = 'Къпене';
+	arrLang['bg']['clothes'] = 'Пране на дрехи';
+	arrLang['bg']['text'] = 'В много развити страни водомерите се използват за измерване на обема на водата, използвана от жилищни и търговски сгради, които се снабдяват с вода от обществена водоснабдителна система. Водомерите могат да се използват и при водоизточника, кладенеца или в цялата водна система за определяне на потока през определена част от системата. В по-голямата част от света водомерите измерват дебита в кубически метри (м3) или литри, но в САЩ и някои други страни водомерите се калибрират в кубически футове (фута 3) или американски галони на механичен или електронен регистър.';
+
+    $(function() {
+      $('.translate').click(function() {
+        var lang = $(this).attr('id');
+
+        $('.lang').each(function(index, item) {
+          $(this).text(arrLang[lang][$(this).attr('key')]);
+        });
+      });
+    });
+  </script>
+  
 </head>
 
-<body >
+<body>
 
 <header id="header">
 
 <div style="padding:5px;"><i class="fa fa-globe" id="globe"></i>
 
  <button id="en" class="translate" class="button" style="position:relative;left:81%">English</button>
-  <button id="bg" class="translate" class="button" style="position:relative;left:81%">Български</button>
+ <button id="bg" class="translate" class="button" style="position:relative;left:81%">Български</button>
 
 </div>
 
@@ -29,44 +75,42 @@
 
 <nav style="width:90%">
 <ul>
-  <li id="home"><a class="active" href="index.html">Home</a></li>
-  
-  <li style="font-size:18px;"><a href="contact.html">Contact us</a></li>
-  <li id="about"><a href="about.html">About</a></li>
-</ul>
 
+  <li id="home"><a href="index.html" key="home" class="lang">Home</a></li>
+  <li id="cont"><a href="contact.html" key="contact" class="lang">Contact us</a></li>
+  <li id="about"><a href="about.html" key="about" class="lang">About</a></li>
+  
+</ul>
 </nav>
 
 <hr>
+
 <center>
 
 <div id="div2">
+<h1 id="h1-2" key="h1" class="lang">
 
-<h1 id="h1-2" >
 Water Metering
+
 </h1>
-
 </div>
-</center>
 
+</center>
 
 <ul id="ul1"> 
   
-  <li style="padding:4px" id="li1"><a  href="toilet.html" >Toilet flushing</a></li>
-  <li style="padding:4px" id="li1"><a  href="shower.html">Showering</a></li>
-  <li style="padding:4px" id="li1"><a  href="wash.html" >Washing up</a></li>
-  <li style="padding:4px" id="li1"><a  href="clothes.html">Clothes washing</a></li>
-  <li style="padding:4px" id="li1"><a  href="drink.html">Drinking water</a></li>
-  <li style="padding:4px" id="li1"><a  href="garden.html">Gardening</a></li>
+  <li style="padding:4px" id="li1"><a  href="toilet.html" key="toilet" class="lang">Toilet flushing</a></li>
+  <li style="padding:4px" id="li1"><a  href="shower.html" key="shower" class="lang">Showering</a></li>
+  <li style="padding:4px" id="li1"><a  href="wash.html"  key="wash" class="lang">Washing-up</a></li>
+  <li style="padding:4px" id="li1"><a  href="clothes.html" key="clothes" class="lang">Clothes washing</a></li>
+  <li style="padding:4px" id="li1"><a  href="drink.html" key="drink" class="lang">Drinking water</a></li>
+  <li style="padding:4px" id="li1"><a  href="garden.html" key="garden" class="lang">Gardening</a></li>
   
 </ul>
 
+<p style="width:400px;position:absolute;left:350px;top:240px;font-size:18px" key="text" class="lang">
 
-
-
-<p style="width:360px;position:absolute;left:350px;top:240px;font-size:18px">
 In many developed countries water meters are used to measure the volume of water used by residential and commercial buildings that are supplied with water by a public water supply system. Water meters can also be used at the water source, well, or throughout a water system to determine flow through a particular portion of the system. In most of the world water meters measure flow in cubic metres (m3) or litres but in the USA and some other countries water meters are calibrated in cubic feet (ft.3) or US gallons on a mechanical or electronic register. 
-
 
 </p>
 
@@ -77,15 +121,15 @@ In many developed countries water meters are used to measure the volume of water
 
 <hr style="width:1100px;position:relative;left:110px">
 
-
 <footer id="footer2">
 
 <a href="https://www.youtube.com/channel/UCf3GBTUn_Kd2bzMuCr2kZag/videos?view_as=subscriber" id="link1"><i class="fa fa-youtube-play" id="yb"></i></a>
 <a href="https://www.facebook.com/groups/194078554975953/?hc_ref=ARQ6F71Tmtvev8ATQesSFmvilY2eJJJjccKNarOF_3mbrVwjeGAPY9K5yGWP51V-Q94" id="link2" ><i class="fa fa-facebook-f" id="fb"></i></a>
-<a href="https://www.instagram.com/zafe_pik1/" ><i class="fa fa-instagram" id="inst"></i></a>
+<a href="https://www.instagram.com/zafe_pik2/" ><i class="fa fa-instagram" id="inst"></i></a>
 
 
 </footer>
+
 </body>
 
 </html>

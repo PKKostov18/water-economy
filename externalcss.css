@@ -1,174 +1,308 @@
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  top: 0;
-  font-size:17px;
-  position:relative;
-  left:5%;
+	
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	top: 0;
+	font-size:17px;
+	position:relative;
+	left:5%;
+	z-index:2;
+  
 }
 
 
 li {
-  float: left;
+	
+	float: left;
+  
 }
 
 li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+	
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
   
 }
 
-
+#d{
+	
+	z-index:2;
+	
+}
 
 li a:hover {
- background-color:lightblue;
-}
-
-.active {
-  
- font-size:18px;
-  
+	
+	background-color:lightblue;
+ 
 }
 
 #header{
+	
+	z-index:2;
+	background-color:#666666;
 
-background-color:#666666;
 }
 
 #globe{
 
-font-size:15px;
-left:80%;
-position:relative;
-color:white;
-}
+	font-size:15px;
+	left:80%;
+	position:relative;
+	color:white;
 
+}
 
 #div1{
 
-background-color:#e67300;
-padding:0.1px;
+	background-color:#e67300;
+	padding:0.1px;
+
 }
 
 #div2{
 
-background-color:#e67300;
-width:400px;
+	background-color:#e67300;
+	width:420px;
+
 }
 
 #h1{
 
-font-size:45px;
-color:white;
-left:5%;
-position:relative;
+	font-size:45px;
+	color:white;
+	left:5%;
+	position:relative;
+  
 }
+
 #h1-2{
 
-font-size:45px;
-color:white;
-position:relative;
+	font-size:45px;
+	color:white;
+	position:relative;
+  
 }
 
 #home{
-border-right:solid black 1px;
-font-size:18px;
+	
+	border-right:solid black 1px;
+	font-size:18px;
+  
 }
 
 #info{
 
-font-size:18px;
+	font-size:18px;
+  
 }
 
 #about{
-position:relative;
-float:right;
-font-size:18px;
+	
+	position:relative;
+	float:right;
+	font-size:18px;
+
 }
 
 #footer{
 
-background-color:grey;
-position:relative;
-bottom:0;
-width:98.5%;
+	background-color:grey;
+	position:relative;
+	bottom:0;
+	width:98.5%;
+  
 }
 
 #footer2{
 
-background-color:grey;
-position:absolute;
-bottom:0;
-width:100%
+	background-color:grey;
+	position:absolute;
+	bottom:0;
+	width:100%;
+  
+}
+
+#water{
+
+	position:relative;
+	top:70px;
+	left:4%;
+	border:solid #e67300 5px;
+	height:250px;
+	z-index:2;
+	width:400px;
+
+}
+
+#aim{
+	
+	font-size:18px;
+	position:absolute;
+	left:550px;
+	top:310px;
+	width:500px;
+	z-index:2;
+
+}
+
+#hr{
+	
+	color:black;
+	border:solid black 7px;
+	position:absolute;
+	z-index:2;
+	width:103.5%;
+	transform: rotate(-18.5deg);
+	top:109.5%;
+	left:-30px;
+	margin:0;
+	padding:0;
+	border-radius:5px;
+	
 }
 
 #footer3{
 
-background-color:grey;
-position:relative;
-bottom:0;
-width:100%
+	background-color:grey;
+	position:relative;
+	bottom:0;
+	width:100%
+
 }
 
 #link2{
 
-text-decoration:none;
-position:relative;
+	text-decoration:none;
+	position:relative;
 
 }
 
 #link1{
 
-text-decoration:none;
-position:relative;
+	text-decoration:none;
+	position:relative;
+  
 }
 
 #inst{
 
-font-size:22px;
-color:orange;
-position:relative;
-left:9%;
-padding:10px;
+	font-size:22px;
+	color:orange;
+	position:relative;
+	left:9%;
+	padding:10px;
+  
 }
 
 #yb{
 
-font-size:22px;
-color:red;
-position:relative;
-left:9.5%;
-padding:10px;
+	font-size:22px;
+	color:red;
+	position:relative;
+	left:9.5%;
+	padding:10px;
+  
 }
 
 
 #fb{
 
-font-size:22px;
-position:relative;
-color:blue;
-left:1%;
-padding:10px;
+	font-size:22px;
+	position:relative;
+	color:blue;
+	left:1%;
+	padding:10px;
+  
+}
+
+#h4{
+	
+	font-size:18px;
+	position:absolute;
+	left:32%;
+	top:820px;
+	width:400px;
+	z-index:2;
+
+}	
+
+#cont{
+	
+	font-size:18px;
+	
+}
+
+#par{
+	
+	position:absolute;
+	left:800px;
+	width:400px;
+	top:690px;
+	
+}
+
+#hr3{
+	
+	width:1100px;
+	position:relative;
+	left:110px
+	
+}
+
+#par2{
+	
+	position:absolute;
+	left:800px;
+	width:400px;
+	top:860px;
+}
+
+#text{
+	
+	position:absolute;
+	left:700px;
+	top:700px;
+	width:400px;
+	font-size:18px
+	
+}
+
+#hr2{
+	
+	width:1100px;
+	position:relative;
+	left:110px
+	
 }
 
 #eco{
 	
 	width:30%;
 	position:relative;
-	left:60%;
-	top:10px;
-	border:solid #e67300 5px;
+	left:67%;
+	top:180px;
+	border:solid white 5px;
+	z-index:2;
+	width:600px;
 	
 }
 
+#name{
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:20px;
+	position:relative;
+	left:10%
+
+}
 #eco1{
 	
-    width:350px;
+	width:350px;
 	position:absolute;
 	left:900px;
 	top:250px;
@@ -178,7 +312,7 @@ padding:10px;
 
 #eco2{
 	
-    width:250px;
+	width:250px;
 	position:relative;
 	left:300px;
 	top:10px;
@@ -186,83 +320,58 @@ padding:10px;
 	
 }
 
-.error {
-	color: #FF0000;
-	}
-	
 #h3{
 		
 	position:relative;	
-    font-size:24px;	
+	font-size:24px;	
+	
 }
 
 #h2{
 		
 	position:relative;	
-    font-size:24px;	
+	font-size:24px;	
+
 }
 	
 input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
+	
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+	
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+	
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+	
+	background-color: #45a049;
+	
 }
 
 .container {
-  border-radius: 10px;
-  background-color: #ffa64d;
-  padding: 30px;
-  width:40%;
-  position:relative;
-  left:30%;
-  bottom:16px
+	
+	border-radius: 10px;
+	background-color: #ffa64d;
+	padding: 30px;
+	width:40%;
+	position:relative;
+	left:30%;
+	bottom:16px
   
-
-}
-
-
-  .btn .button {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  cursor: pointer;
-  float: left;
-
-}
-
-
-  .btn .button {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  cursor: pointer;
-  float: left;
 }
